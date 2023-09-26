@@ -1,0 +1,113 @@
+.inicio{
+--opacidad-negro: 0.5;
+background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("../img/fondo.webp");
+background-position: 90px;
+background-size: auto;
+height:32rem;  
+}
+Content-Security-Policy: default-src 'self';
+body{
+    background-color: #e8e2d6;
+}
+header{
+    background-color: #e8e2d6;
+}
+.ana{
+    .card{
+        width: 18rem;
+        padding: 10px;
+        background-color: #e2d8bf;
+        border-radius: 10px;
+    }
+    .card-tittle{
+        font-size: 1.5rem;
+    }
+}
+.pam .card {
+    width: 18rem;
+    padding: 20px;
+    background-color: #ccbf8e;
+    border-radius: 12px;
+  }
+  
+  .pam .card-title {
+    font-size: 2rem;
+  }
+.alan{
+    .card{
+        width: 300px;
+        padding: 1rem;
+        background-color: #e2d8bf;
+        border-radius: 10px;
+    }
+    .card-tittle{
+        font-size: 1.5rem;
+    }
+}
+.oso{
+    .card{
+        width: 300px;
+        padding: 15px;
+        background-color: #ccbf8e;
+        border-radius: 10px;
+    }
+    .card-tittle{
+        font-size: 1.5rem;
+    }
+}
+.alex{
+    background-color: #3498db;
+    color: azure;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.alex:hover {
+    background-color: #2980b9;
+}
+.pedro{
+    background-color: #bab7af;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    pointer-events: none;
+}
+.javi{
+    background-color: #6d28aa;
+    color: azure;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.javi:hover{
+    background-color: #8e44ad;
+}
+.jaq{
+    width: 100px;
+    height: 50px;
+}
+.jer{
+    position: sticky;
+    top: 0;
+    background-color: #c1d1bf;
+    z-index: 100;
+}
+.edg{
+    color: black;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.carousel-item img {
+    max-width: 100%; 
+    height: 500px; /* Para mantener la proporción original de la imagen */
+  }
